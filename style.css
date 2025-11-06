@@ -20,8 +20,19 @@ header {
 }
 
 .logo {
-    margin-right: auto;
-    margin-left: 10px;
+   margin-right: auto;
+   display: flex;
+   gap: 1px;
+}
+
+.logo-img {
+  width:35px;
+  height: 35px;
+   margin-right: 10px;
+   border-radius: 50%;
+}
+
+.logo-title {
     cursor: pointer;
     transition: all .5s ease 0s;
 }
@@ -385,7 +396,7 @@ footer {
   }
 
   .menu-toggle {
-    display: none; /* gak perlu hamburger */
+    display: none; 
   }
 }
 
@@ -394,4 +405,3 @@ footer {
 .menu-toggle {
   display: none;
 }
-
