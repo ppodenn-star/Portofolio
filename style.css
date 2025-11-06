@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -393,3 +394,4 @@ footer {
 .menu-toggle {
   display: none;
 }
+
