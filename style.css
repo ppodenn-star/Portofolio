@@ -1,0 +1,395 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: #0A1D56;
+  color: #eaeaea;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all .5s ease 0s;
+}
+
+.logo:hover {
+    color:#FF6A3D;
+    transform: rotate(2deg)
+}
+
+.tombol {
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 6px 12px;
+    background: #FF6A3D;
+    color: #eaeaea;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-cta {
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 6px 12px;
+    background: #FF6A3D;
+    color: #eaeaea;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #eaeaea;
+  font-weight: 600;
+}
+
+li {
+   list-style: none;
+   padding: 10px;
+}
+
+li a {
+   transition: all .5s ease 0s;
+   display: inline-block;
+}
+
+li a:hover {
+    color:#FF6A3D;
+    transform: rotate(2deg);
+}
+
+a {
+    color: #eaeaea;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.section-band {
+  width: 100%;
+  height: 50px;
+  background: #0A1D56; /* biru gelap */
+  background-attachment: fixed;
+}
+
+.about-section,
+.contact-section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.about-section h2,
+.contact-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.about-section p,
+.contact-section p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 5px auto;
+}
+
+.about-section {
+  padding: 80px 20px;
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.about-photo {
+  width: 250px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.about-text {
+  max-width: 600px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.business-gallery {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+.biz-img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.img-foto {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    padding: 10px;
+}
+
+.parallax {
+    background-image: url('smile.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+}
+
+.tentang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #1A2238;
+    color: #eaeaea;
+    padding: 40px;
+    
+}
+
+.contact-section {
+  background: #1A2238;
+  color: #eaeaea;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-desc {
+  font-size: 18px;
+  margin: 10px 0 20px;
+  opacity: 0.9;
+}
+
+.contact-info p {
+  margin: 6px 0;
+  font-size: 16px;
+}
+
+.social-link {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-item {
+  color: #eaeaea;
+  background: #FF6A3D;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.social-item:hover {
+  background: #FF6A3D;
+  transform: sclae(1.05);
+}
+
+.nt-10 {
+    margin-top: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-items {
+    text-align: center;
+    width: 25%;
+    background: #f7f7f7;
+    color: #222;
+    padding: 24px;
+    box-shadow: 2px 5px 5px 1px rgba(0,0,0,0.5);
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.card-description {
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+
+.icon {
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    padding: 4px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #1A2238;
+    color: #eaeaea;
+}
+
+@media screen  and (max-width: 500px) {
+    .card {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .card-items {
+        width: 100%;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .intro {
+        margin-top: 20px;
+    }
+
+    .img-foto {
+        padding: 0;
+    }
+}
+
+/* Default desktop style udah oke, lanjut responsivenya */
+
+/* Tablet */
+@media (max-width: 992px) {
+  .header {
+    padding: 12px 20px;
+  }
+
+  .navbar ul {
+    gap: 15px;
+  }
+
+  .btn-cta {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar {
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* biar kalau sempit, turun ke baris berikutnya */
+    justify-content: center;
+    gap: 15px;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    border: none;
+  }
+
+  .tombol {
+        display: inline-block !important;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    }
+
+  .btn-cta {
+    display: inline-block; /* tombol biar gak numpuk di atas */
+  }
+
+  .menu-toggle {
+    display: none; /* gak perlu hamburger */
+  }
+}
+
+
+/* Default: hide menu icon desktop */
+.menu-toggle {
+  display: none;
+}
